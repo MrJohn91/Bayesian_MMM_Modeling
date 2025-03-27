@@ -8,7 +8,7 @@ The main objectives were to:
 3. Calculate channel-specific ROI values
 4. Understand seasonal patterns in revenue
 ## Technologies Used
-- **Python 3.x** - Programming language 
+- **Python 3.x**: Programming language 
 - **PyMC**: For Bayesian modeling and MCMC sampling
 - **Pandas & NumPy**: For data manipulation and computational work
 - **Plotly**: For interactive data visualization
