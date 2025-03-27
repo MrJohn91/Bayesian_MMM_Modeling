@@ -1,7 +1,7 @@
 # Bayesian Mixed-Media Model (MMM) Marketing Analysis
 ## Project Overview
 This project applies a Bayesian Mixed-Media Model to analyze marketing spend effectiveness across seven different advertising channels. The analysis identifies which channels drive the most revenue, measures their return on investment (ROI), and quantifies how marketing effects carry over to future weeks.
-## Goal
+## Objectives
 The main objectives were to:
 1. Model the carryover effect of marketing spend
 2. Identify the most and least effective marketing channels
