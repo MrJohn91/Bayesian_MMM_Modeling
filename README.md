@@ -14,7 +14,7 @@ The main objectives were to:
 - **Python 3.x**: Programming language 
 - **PyMC**: For Bayesian modeling and MCMC sampling
 - **Pandas & NumPy**: For data manipulation and computational work
-- **Plotly**: For interactive data visualization
+- **Plotly, Seaborn and Matplotlib **: For interactive data visualization
 - **Google Colab**: For model desiging and execution
 
 ## Key Findings
