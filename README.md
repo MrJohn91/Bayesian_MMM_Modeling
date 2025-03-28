@@ -56,7 +56,7 @@ The model clearly isolates how much of the business performance is driven by lon
 - **Optimal Decay Rates**: Finding the best adstock parameters required testing multiple values for each channel
 - **Seasonality Modeling**: Discovered that modeling November explicitly was crucial for capturing Black Friday effects and Cyber Monday
 
-## Answers to Key Questions
+## Answering Key Questions
 
 ### How do model spend carry over?
 By implementing channel-specific geometric adstock transformations. For each channel, i tested decay rates between 0.1-0.9 and selected the optimal value that maximized correlation with revenue. This approach recognizes that different channels have different patterns of delayed impact.
