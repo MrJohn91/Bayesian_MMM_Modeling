@@ -30,20 +30,21 @@ This chart displays the return on investment for each marketing channel. Channel
 This chart displays the total revenue contribution from each channel. Channel 7 makes the largest absolute contribution (€3.98M) despite not having the highest effectiveness coefficient, due to its higher spending levels.
 ### Model Fit
 ![Model Fit](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Model%20Fit.png)
-The model achieves an R² of 0.582, explaining 58.2% of the variance in weekly revenue. The red line shows predicted revenue closely tracking actual revenue (blue dots).
+The model achieves an R² of 0.583, explaining 58.3% of the variance in weekly revenue. The red line shows predicted revenue closely tracking actual revenue (blue dots).
+
 ### Revenue Decomposition
 ![Revenue Decomposition](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Revenue%20Decomposition.png)
-This visualization breaks down revenue into its key components, revealing several important business insights:
+This visualization breaks down revenue into its key components, revealing several important insights:
 
 - **Total Revenue (top panel)**: Shows clear spikes in January 2021 and January 2022, with revenue typically fluctuating throughout the year. The overall pattern suggests some revenue volatility with a gradual decline over the two-year period.
 
-- **Trend Component (second panel)**: Reveals a consistent downward trend in the business. This long-term decline represents a strategic challenge requiring attention beyond marketing optimization.
+- **Trend Component (second panel)**: Reveals a consistent downward trend in the business. This decline represents a strategic challenge requiring attention.
 
-- **Seasonal Component (third panel)**: Identifies regular cyclical patterns throughout the year that repeat predictably regardless of marketing activities. The magnitude of these seasonal effects is relatively small compared to holiday effects.
+- **Seasonal Component (third panel)**: Identifies regular cyclical patterns throughout the year that repeat predictably regardless of marketing activities. The magnitude of these seasonal effects is relatively small compared to special event effects.
 
-- **Holiday Effect Component (bottom panel)**: Quantifies the substantial impact of holiday periods, with January showing a strong positive effect and December showing a negative effect. This suggests customers may delay purchases from December to January, possibly waiting for post-holiday sales.
+- **Special Event Effects (bottom panel)**: Quantifies the substantial impact of key periods, with November (Black Friday or Cyber Monday) showing the strongest positive effect, followed by January with a moderate positive effect. This suggests customers concentrate purchases during Black Friday sales and may delay some December purchases until January.
 
-The model clearly isolates how much of the business performance is driven by long-term trends versus seasonal patterns versus specific holiday periods, allowing for more targeted marketing strategies.
+The model clearly isolates how much of the business performance is driven by long-term trends versus seasonal patterns versus specific retail events, allowing for more targeted marketing strategies.
 
 ## Challenges & Solutions
 
