@@ -69,8 +69,8 @@ The posterior distributions are substantially narrower than the priors, indicati
 The model performs well with an R² of 0.583, explaining 58.3% of the variance in revenue. Indicating that the model captures meaningful patterns in the data. For a marketing mix model, an R² above 0.5 is generally considered a good fit.
 
 Additional metrics include:
-- MAPE (Mean Absolute Percentage Error) of 17.34% – This means our revenue predictions are, on average, about 17% off compared to actual numbers. For every €100 in revenue, we might be off by around €17 higher or lower.
-- MAE (Mean Absolute Error) of €23,079 – On average, our predictions differ from actual revenue by about €23,000 per week. Some weeks we're slightly under, some slightly over, but that’s the typical gap.
+- MAPE (Mean Absolute Percentage Error) of 17.34% – This means revenue predictions are, on average, about 17% off compared to actual numbers. For every €100 in revenue, we might be off by around €17 higher or lower.
+- MAE (Mean Absolute Error) of €23,079 – On average, predictions differ from actual revenue by about €23,000 per week. Some weeks we're slightly under, some slightly over, but that’s the typical gap.
 ### Main insights in terms of channel performance/effects?
 The analysis revealed that Channels 6, 5, and 7 are effective at driving revenue, while Channels 1, 2, and 4 show negative associations with revenue. We also found strong seasonal effects, particularly in November (Black Friday) and January (post-holiday).
 ### Deriving ROI estimates per channel? What is the best channel in terms of ROI?
