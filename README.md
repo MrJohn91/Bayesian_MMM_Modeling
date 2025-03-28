@@ -29,7 +29,7 @@ This chart displays the return on investment for each marketing channel. Channel
 ![Contributions by Channel](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Contributions%20by%20channel.png)
 This chart displays the total revenue contribution from each channel. Channel 7 makes the largest absolute contribution (€3.98M) despite not having the highest effectiveness coefficient, due to its higher spending levels.
 ### Model Fit
-![Model Fit](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Model%20Fit.png)
+![Model Fit](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Model%20fit.png)
 The model achieves an R² of 0.583, explaining 58.3% of the variance in weekly revenue. The red line shows predicted revenue closely tracking actual revenue (blue dots).
 
 ### Revenue Decomposition
