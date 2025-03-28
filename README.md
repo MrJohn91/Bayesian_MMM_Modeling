@@ -33,7 +33,6 @@ This chart displays the total revenue contribution from each channel. Channel 7 
 The model achieves an R² of 0.583, explaining 58.3% of the variance in weekly revenue. The red line shows predicted revenue closely tracking actual revenue (blue dots).
 
 ### Revenue Decomposition
-![Revenue Decomposition](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Revenue%20Decomposition.png)
 This visualization breaks down revenue into its key components, revealing several important insights:
 
 - **Total Revenue (top panel)**: Shows clear spikes in January 2021 and January 2022, with revenue typically fluctuating throughout the year. The overall pattern suggests some revenue volatility with a gradual decline over the two-year period.
