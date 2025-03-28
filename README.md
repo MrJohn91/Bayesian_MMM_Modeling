@@ -66,7 +66,10 @@ using weakly informative priors that provide some regularization while allowing 
 ### How the model results based on prior sampling vs. posterior sampling?
 The posterior distributions are substantially narrower than the priors, indicating that the data significantly updated our initial beliefs. For example, the posterior for Channel 6's coefficient narrowed to a range of 1.98-2.11, with a mean of 2.05, compared to the much wider prior.
 ### How good is the model performing? How do you measure it?
-The model performs well with an R² of 0.583, explaining 58.3% of revenue variance. Additional metrics include MAPE (Mean Absolute Percentage Error)  of 17.34% and MAE (Mean Absolute Error) of €23,079. For marketing mix models, R² values above 0.5 are generally considered good.
+The model performs well with an R² of 0.583, explaining 58.3% of the variance in revenue. Indicating that the model captures meaningful patterns in the data. For a marketing mix model, an R² above 0.5 is generally considered a good fit
+Additional metrics include:
+- MAPE (Mean Absolute Percentage Error) of 17.34% – This means our revenue predictions are, on average, about 17% off compared to actual numbers. For every €100 in revenue, we might be off by around €17 higher or lower.
+- MAE (Mean Absolute Error) of €23,079 – On average, our predictions differ from actual revenue by about €23,000 per week. Some weeks we're slightly under, some slightly over, but that’s the typical gap.
 ### Main insights in terms of channel performance/effects?
 The analysis revealed that Channels 6, 5, and 7 are effective at driving revenue, while Channels 1, 2, and 4 show negative associations with revenue. We also found strong seasonal effects, particularly in November (Black Friday) and January (post-holiday).
 ### Deriving ROI estimates per channel? What is the best channel in terms of ROI?
