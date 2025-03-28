@@ -73,6 +73,11 @@ Channel 6 provides the best ROI at 2.56 (156% return), followed by Channel 5 at 
 
 ## Next Steps & Improvements
 
+### Model Improvements
+-  Trying more advanced adstock models to better capture how marketing effects build up and fade over time.
+-  Checks if channels work together by exploring how they might boost each other’s impact.
+-  Use cross-validation to test the model on different data sets and make sure it holds up well
+
 ### Business Applications
 - Develop an optimal budget allocation strategy based on channel ROI
 - Create a dashboard for ongoing monitoring of channel performance
