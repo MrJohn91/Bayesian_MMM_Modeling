@@ -24,7 +24,7 @@ The main objectives were to:
 This visualization shows the effectiveness of each marketing channel. Channels 6, 5, 7, and 3 show positive effects, with Channel 6 being the most effective (generating €2.05 for every €1 spent). Channels 1, 2, and 4 show negative effects on revenue.
 ### Return on Investment (ROI)
 ![ROI by Channel](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/ROI%20by%20channel.png)
-This chart displays the return on investment for each marketing channel. Channel 6 has the highest ROI at 2.56 (156% return), while Channel 2 has the lowest at -15.41. Four channels show positive ROI, while three channels have negative returns.
+This chart displays the return on investment for each marketing channel. Channel 6 has the highest ROI at 2.56 (156% return), while Channel 2 has the lowest at -15.41nlikely due to the very low spend in that channel. Four channels show positive ROI, while three channels have negative returns.
 ### Total Revenue Contribution
 ![Contributions by Channel](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Contributions%20by%20channel.png)
 This chart displays the total revenue contribution from each channel. Channel 7 makes the largest absolute contribution (€3.98M) despite not having the highest effectiveness coefficient, due to its higher spending levels.
