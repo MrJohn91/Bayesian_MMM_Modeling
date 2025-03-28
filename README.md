@@ -1,7 +1,10 @@
 # Bayesian Mixed-Media Model (MMM) Marketing Analysis
+
 ## Project Overview
 This project applies a Bayesian Mixed-Media Model to analyze marketing spend effectiveness across seven different advertising channels. The analysis identifies which channels drive the most revenue, measures their return on investment (ROI), and quantifies how marketing effects carry over to future weeks.
+
 ## Objectives
+
 The main objectives were to:
 1. Model the carryover effect of marketing spend
 2. Identify the most and least effective marketing channels
@@ -13,7 +16,9 @@ The main objectives were to:
 - **Pandas & NumPy**: For data manipulation and computational work
 - **Plotly**: For interactive data visualization
 - **Google Colab**: For model desiging and execution
+
 ## Key Findings
+
 ### Channel Effectiveness
 ![Channel Coefficients](https://github.com/MrJohn91/Bayesian_MMM_Modeling/blob/main/Screenshots/Channel%20Coefficient.png)
 This visualization shows the effectiveness of each marketing channel. Channels 6, 5, 7, and 3 show positive effects, with Channel 6 being the most effective (generating €2.05 for every €1 spent). Channels 1, 2, and 4 show negative effects on revenue.
@@ -41,6 +46,7 @@ This visualization breaks down revenue into its key components, revealing severa
 The model clearly isolates how much of the business performance is driven by long-term trends versus seasonal patterns versus specific holiday periods, allowing for more targeted marketing strategies.
 
 ## Challenges & Solutions
+
 ### Technical Challenges
 - **PyMC Installation**: Encountered dependency conflicts in the local environment, resolved by switching to Google Colab
 - **Model Convergence**: Initial models showed poor fit, improved by implementing channel-specific adstock parameters
@@ -49,7 +55,9 @@ The model clearly isolates how much of the business performance is driven by lon
 - **Negative Coefficients**: Several channels showed counterintuitive negative effects, requiring careful interpretation
 - **Optimal Decay Rates**: Finding the best adstock parameters required testing multiple values for each channel
 - **Seasonality Modeling**: Discovered that modeling November explicitly was crucial for capturing Black Friday effects and Cyber Monday
+
 ## Answers to Key Questions
+
 ### How do model spend carry over?
 By implementing channel-specific geometric adstock transformations. For each channel, i tested decay rates between 0.1-0.9 and selected the optimal value that maximized correlation with revenue. This approach recognizes that different channels have different patterns of delayed impact.
 ### Explaining choice of prior inputs to the model
@@ -62,11 +70,8 @@ The model performs well with an R² of 0.582, explaining 58.2% of revenue varian
 The analysis revealed that Channels 6, 5, and 7 are effective at driving revenue, while Channels 1, 2, and 4 show negative associations with revenue. We also found strong seasonal effects, particularly in November (Black Friday) and January (post-holiday).
 ### Deriving ROI estimates per channel? What is the best channel in terms of ROI?
 Channel 6 provides the best ROI at 2.56 (156% return), followed by Channel 5 at 1.71 (71% return) and Channel 7 at 1.38 (38% return). Channels 1, 2, and 4 show negative ROI, suggesting marketing spend should be reallocated away from these channels.
+
 ## Next Steps & Improvements
-### Model Refinements
-- Test more complex adstock functions that better capture how marketing effects rise and decay
-- Explore interaction effects between channels to identify potential synergies
-- Implement cross-validation to further validate model robustness
 
 ### Business Applications
 - Develop an optimal budget allocation strategy based on channel ROI
